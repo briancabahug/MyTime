@@ -1,0 +1,39 @@
+# Day 1 Task 2
+
+## Priority: HIGH
+
+## Estimated Time: 45 minutes
+
+## Description
+Create all data model classes with Hive annotations for local storage persistence.
+
+### Tasks
+  - Create folder lib/models/
+  - Create lib/models/timeline_entry.dart with:
+    - EntryType enum (quickNote, reflection, alarmLog)
+    - MediaType enum (none, image, video, audio)
+    - TimelineEntry class with all fields
+    - Hive type annotations
+
+  - Create lib/models/alarm.dart with:
+    - TimeOfDay helper class
+    - Alarm class with recurrence logic
+    - Hive type annotations
+
+  - Create lib/models/alarm_log.dart with:
+    - AlarmStatus enum (done, missed, skipped)
+    - AlarmLog class
+    - Hive type annotations
+
+  - Create lib/models/daily_summary.dart with all statistics fields
+  - Create lib/models/weekly_summary.dart with aggregated data fields
+
+Acceptance Criteria
+
+  - All model files created with proper imports
+  - All classes have required fields defined
+  - Hive annotations are correct (@HiveType, @HiveField)
+  - Each model has unique typeId (no conflicts)
+
+Notes
+Copy from the provided artifacts. Pay attention to typeId numbers - they must be unique across all models.
