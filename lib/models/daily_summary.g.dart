@@ -23,7 +23,7 @@ class DailySummaryAdapter extends TypeAdapter<DailySummary> {
       alarmsMissed: fields[3] as int,
       alarmsCompleted: fields[4] as int,
       activeHours: fields[5] as Duration,
-      noteTypeBreakdown: (fields[6] as Map).cast<InvalidType, int>(),
+      noteTypeBreakdown: (fields[6] as Map).cast<EntryType, int>(),
     );
   }
 

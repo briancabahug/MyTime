@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:my_time/lib/models/timeline_entry.dart';
+import 'package:my_time/models/timeline_entry.dart';
 
 part 'daily_summary.g.dart';
 

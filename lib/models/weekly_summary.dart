@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:my_time/lib/models/daily_summary.dart'; // Import DailySummary for potential aggregation
+import 'package:my_time/models/daily_summary.dart'; // Import DailySummary for potential aggregation
 
 part 'weekly_summary.g.dart';
 
