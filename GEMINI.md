@@ -38,10 +38,11 @@ Added/ran tests at `test/path/to/test.rb:XX` to verify.
   - `Add-Login-Page.md`
   - `Dashboard-Refactor.md`
 - If the file already exists, do not overwrite, append the data instead add timestamp the updates
+- Be concise, prioritize faster ai context loading and minimizing ai context usage
 
 ### When asked to read a task
 - Task note files are in `./project/tasks/`
-- Filename format: `{Task-Description}.txt`
+- Filename format: `{Task-Description}.md`
 - Examples:
   - `Add-Login-Page.md`
   - `Dashboard-Refactor.md`
