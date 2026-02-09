@@ -22,3 +22,6 @@
 
 ### Outcome:
 All Hive-annotated models have corresponding `.g.dart` files generated, enabling local persistence.
+---
+*Timestamp: 2026-02-09*
+- **Refactoring**: Moved `TimeOfDay` model from `lib/models/alarm.dart` to its own file `lib/models/time_of_day.dart` for better organization.

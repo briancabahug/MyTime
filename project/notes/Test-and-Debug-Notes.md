@@ -97,3 +97,10 @@ class MyApp extends StatelessWidget {
 *   **Add/Edit/Delete Records**: CRUD operations on Hive box records.
     *   For typed boxes (TimelineEntry, Alarm, AlarmLog, DailySummary, WeeklySummary), a sample JSON format is displayed to guide input.
     *   Dialogs are scrollable to accommodate longer content on smaller screens.
+
+## Data Models
+
+The data models are the core of the application's data layer. They are defined in `lib/models/` and use Hive for persistence.
+
+### Refactoring
+- **`TimeOfDay` Model**: The `TimeOfDay` model was moved from `lib/models/alarm.dart` to its own file `lib/models/time_of_day.dart`. This was done to improve code organization and consistency.
