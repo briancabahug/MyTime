@@ -93,3 +93,7 @@ class MyApp extends StatelessWidget {
 *   **Clear All Hive Data**: A button that, upon confirmation, will delete all data stored by Hive on the device. **Use with caution**, as this action is irreversible.
     *   Tapping this button will present a confirmation dialog to prevent accidental data loss.
     *   After clearing, a `SnackBar` message will confirm the action.
+*   **Box Contents Viewer**: View all records in each Hive box with expandable details.
+*   **Add/Edit/Delete Records**: CRUD operations on Hive box records.
+    *   For typed boxes (TimelineEntry, Alarm, AlarmLog, DailySummary, WeeklySummary), a sample JSON format is displayed to guide input.
+    *   Dialogs are scrollable to accommodate longer content on smaller screens.
