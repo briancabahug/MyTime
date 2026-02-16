@@ -9,6 +9,7 @@ import 'package:my_time/models/alarm_log.dart';
 import 'package:my_time/models/daily_summary.dart';
 import 'package:my_time/models/weekly_summary.dart';
 import 'package:my_time/models/duration_adapter.dart';
+import 'package:my_time/models/time_of_day.dart'; // Correct import for TimeOfDay and TimeOfDayAdapter
 
 
 void main() async {

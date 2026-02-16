@@ -8,6 +8,7 @@ import 'package:my_time/models/daily_summary.dart';
 import 'package:my_time/models/timeline_entry.dart';
 import 'package:my_time/models/weekly_summary.dart';
 import 'package:my_time/models/duration_adapter.dart'; // Import DurationAdapter
+import 'package:my_time/models/time_of_day.dart' as app_models; // Correct import for TimeOfDay
 import 'dart:convert'; // For JSON encoding/decoding
 
 class DebugScreen extends StatefulWidget {
