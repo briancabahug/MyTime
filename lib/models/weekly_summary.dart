@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:my_time/models/daily_summary.dart'; // Import DailySummary for potential aggregation
+import 'package:intl/intl.dart';
 
 part 'weekly_summary.g.dart';
 
@@ -32,4 +32,9 @@ class WeeklySummary {
     this.dailyLogsCount = const {},
     this.dailyActiveHours = const {},
   });
+
+  String get yearAndWeek {
+    final weekOfYear = int.parse(DateFormat('w').format(startDate));
+    return '${startDate.year}-$weekOfYear';
+  }
 }
